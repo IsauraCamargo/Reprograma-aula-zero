@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:auto;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+.banner { 
+    background-image: url('../img/isaurabanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    text-align:center;
+    padding-top: 30vh
+}
+.banner
+h1{ 
+    color: royalblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%
+}
+.banner p{
+    margin-bottom: 30px;
+    color: #fff
+}
+.banner a {
+    color: royalblue;
+    text-decoration: unset;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid royalblue;
+    
+}
+.banner a:hover{
+    background-color: royalblue;
+    color:  #fff; 
+}
+/* SOBRE MIM*/
+.sobre-mim,
+.redes-sociais{
+    max-width:1204px;
+    margin:auto;
+    padding: 30px 15px;
+    display:flex;
+    
+}
+.minhas-habilidades{    
+    max-width: 50%;
+    text-align: justify;
+    margin-left: 10%
+    
+    
+}
+.minhas-habiliades_sobre,
+.minhas-habilidades_itens{
+     
+    text-align: justify;
+       
+}
+.minhas-habilidades_itens{
+  margin-left: 5%;
+   
+}
+
+/* REDES SOCIAIS*/
+
+.redes-sociais_item{
+    margin-left: 25%;
+    display:flex;
+    justify-content:center;
+    color: royalblue;
+    text-align:center;
+}
+.redes-socias_facebook,
+.redes-socias_linkedin,
+.redes-socias_twitter,
+.redes-socias_github{
+    background-color: royalblue;
+    color: #fff;
+    text-align:center;
+    padding: 30px 15px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+
+    
+}
+.redes-sociais_item a{
+    text-decoration: unset;
+}
+.redes-sociais_item img{
+    max-width: 55px;
+    max-height: 50px;
+    
+       
+}
+
+/* FOOTER */
+
+footer p { 
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    margin: 0;
+    padding: 20px 5px;
+
+}
